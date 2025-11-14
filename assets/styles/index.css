@@ -1,0 +1,37 @@
+/* Header */
+/* Top header */
+.header .top_header{
+    background-color: var(--clr-pink);
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Contacts */
+.header .top_header a{
+    color: var(--clr-black);
+}
+.header .top_header,p{
+    font-size: 0.8rem;
+}
+.header .top_header a:first-child{
+    border-right:1px solid var(--clr-black) ;
+    margin-right: 10px;
+}
+.header .top_header a:hover i{
+    color: #ff6973;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+/* Slogan */
+.header .top_header .slogan{
+    font-size: 0.8rem;
+    margin-right: 10rem;
+}
+/* Language */
+.header .top_header p{
+    font-weight: 500;
+}
