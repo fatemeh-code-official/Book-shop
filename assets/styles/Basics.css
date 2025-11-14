@@ -17,6 +17,7 @@ a{
     --clr-pink:#f8d7d8;
     --clr-black:#000;
     --clr-white:#fff;
+    --transition: all 0.5s ease-in-out;
 }
 
 /* Fonts */
