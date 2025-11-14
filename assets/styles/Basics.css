@@ -4,6 +4,8 @@
     padding: 0;
     list-style-type: none;
     box-sizing: border-box;
+    font-family: roboto,sans-serif;
+    font-weight: 300;
 }
 
 a{
@@ -16,3 +18,16 @@ a{
     --clr-black:#000;
     --clr-white:#fff;
 }
+
+/* Fonts */
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Light.ttf) format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+
