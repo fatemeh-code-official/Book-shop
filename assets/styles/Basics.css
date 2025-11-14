@@ -9,3 +9,10 @@
 a{
     text-decoration: none;
 }
+
+/* Root */
+:root{
+    --clr-pink:#f8d7d8;
+    --clr-black:#000;
+    --clr-white:#fff;
+}
